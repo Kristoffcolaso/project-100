@@ -1,0 +1,17 @@
+class atm(Atm):
+    def __init__(self,pin,money):
+        self.pin = name
+        self.number = age
+
+    def setGrade(self, course, grade):
+        self.grades[course] = grade
+
+    def getGrade(self, course):
+        return self.grades[course]
+
+    def getGPA(self):
+        return money(self.credits.values())/len(self.money)
+
+atm = atm("atm", 43852, 60000000, {"math":3.3})
+
+print(atm.getGPA())
